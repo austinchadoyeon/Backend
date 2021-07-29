@@ -1,5 +1,5 @@
 const fs = require('fs');
-const client = require('./connection.js');
+const client = require('../connection.js');
 const fastcsv = require('fast-csv');
 
 let stream = fs.createReadStream('db/data/features.csv');
