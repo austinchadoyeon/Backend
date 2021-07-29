@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,19 @@
   "homepage": "https://github.com/hr44-SDC/Backend#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "csv": "^5.5.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "event-stream": "^4.0.1",
     "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "install": "^0.13.0",
     "morgan": "^1.10.0",
-    "pg": "^8.6.0"
+    "npm": "^7.19.0",
+    "pg": "^8.6.0",
+    "stream": "0.0.2"
+  },
+  "devDependencies": {
+    "artillery": "^1.7.5"
   }
 }
