@@ -9,11 +9,10 @@ While this application can serve as a RESTful local API, the goal of this projec
 
 ## Results
 #### Single Instance Results
-![Single Instance Result](results/singleInstance.png?raw=true&s=200)
-<img src="results/singleInstance.png" width="100">
+<img src="results/singleInstance.png" width="400">
 
 #### Two Scaled Instance Results (with round robin NGINX Load Balancing)
-![Two Scaled Instances Result](results/twoInstances.png?raw=true&s=200)
+<img src="results/twoInstances.png" width="400">
 
 ## Features
 
