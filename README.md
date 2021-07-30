@@ -1,4 +1,5 @@
 # Shopper Backend
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## About
 After completing "Atelier", my front-end React project where users can browse several items from an external API on a modern accessible interface, I wanted to initialize a reliable, compatible, and scalable back-end server and database to replace the external API. Shopper Backend consists of a RESTful API server that connects to a postgreSQL database and provides fast responses to requests (less than 30ms).
@@ -9,19 +10,19 @@ While this application can serve as a RESTful local API, the goal of this projec
 
 ## Results
 #### Single Instance Results
-<img src="results/singleInstance.png" width="400">
+<img src="results/singleInstance.png" width="450">
 
 #### Two Scaled Instance Results (with round robin NGINX Load Balancing)
-<img src="results/twoInstances.png" width="400">
+<img src="results/twoInstances.png" width="450">
 
 ## Features
 
--PostgreSQL
--Node.js and Node stream
--Artillery.io
--Loader.io
--Express.js
--NGINX
+* PostgreSQL
+* Node.js and Node stream
+* Artillery.io
+* Loader.io
+* Express.js
+* NGINX
 
 ## Getting Started
 
@@ -42,10 +43,6 @@ $ node database/productDetails/seedProducts.js
 
 5. Initialize the server on localhost:3000 using `$ npm start`
 
-## Application Structure
-
-
-
-## Credits
-
 ## License
+
+The Shopper-Backend repo is licensed under the ISC license.
