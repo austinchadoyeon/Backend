@@ -2,7 +2,7 @@ const fs = require ('fs');
 const client = require('./connection.js');
 const fastcsv = require('fast-csv');
 
-let stream = fs.createReadStream('db/data/styles.csv');
+let stream = fs.createReadStream('database/data/styles.csv');
 let csvData = [];
 let csvStream = fastcsv
   .parse()
