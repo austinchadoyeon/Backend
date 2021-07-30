@@ -7,13 +7,22 @@ Using supplied mock data containing over 1 million products (and 5 million+ diff
 
 While this application can serve as a RESTful local API, the goal of this project was to launch AWS EC2 instances and scale it to handle greater amounts of requests (20,000+ requests/min). Loader.io was used to stress-test the application, and NGINX was used as the load balancer. The results of stress testing this application after launching 1 instance vs. 2 instances with round robin load balancing can be seen below.
 
+## Results
+#### Single Instance Results
 ![Single Instance Result](results/singleInstance.png?raw=true&s=200)
+<img src="results/singleInstance.png" width="100">
 
-![Two Scaled Instances Result](results/twoInstances.png?raw=true)
+#### Two Scaled Instance Results (with round robin NGINX Load Balancing)
+![Two Scaled Instances Result](results/twoInstances.png?raw=true&s=200)
 
 ## Features
--
 
+-PostgreSQL
+-Node.js and Node stream
+-Artillery.io
+-Loader.io
+-Express.js
+-NGINX
 
 ## Getting Started
 
